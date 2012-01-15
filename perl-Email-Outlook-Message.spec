@@ -8,13 +8,13 @@
 Summary:	Email::Outlook::Message - MS Outlook .msg format converter
 Summary(pl.UTF-8):	Email::Outlook::Message - konwerter formatu .msg Microsoft Outlooka
 Name:		perl-Email-Outlook-Message
-Version:	0.909
+Version:	0.910
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MV/MVZ/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	94cc93fcf6657d8cd5254854cae6998a
+# Source0-md5:	f28708daf1521aecde05efef176cb37c
 #URL:		http://search.cpan.org/dist/Email-Outlook-Message/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
