@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Email
 %define	pnam	Outlook-Message
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Outlook::Message - MS Outlook .msg format converter
 Summary(pl.UTF-8):	Email::Outlook::Message - konwerter formatu .msg Microsoft Outlooka
 Name:		perl-Email-Outlook-Message
@@ -15,7 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MV/MVZ/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f28708daf1521aecde05efef176cb37c
-#URL:		http://search.cpan.org/dist/Email-Outlook-Message/
+URL:		http://search.cpan.org/dist/Email-Outlook-Message/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
