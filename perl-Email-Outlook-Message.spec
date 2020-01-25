@@ -4,7 +4,6 @@
 
 %define	pdir	Email
 %define	pnam	Outlook-Message
-%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Outlook::Message - MS Outlook .msg format converter
 Summary(pl.UTF-8):	Email::Outlook::Message - konwerter formatu .msg Microsoft Outlooka
 Name:		perl-Email-Outlook-Message
